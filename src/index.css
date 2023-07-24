@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button-primary {
+    @apply rounded bg-primary py-4 px-7 font-normal text-secondary;
+  }
+  .button-secondary {
+    @apply rounded bg-primary py-4 px-7 font-normal text-secondary;
+  }
+  .button-tertiary {
+    @apply rounded-xl bg-accent-1 px-2 py-1 text-primary;
+  }
+  .button-quaternary {
+    @apply rounded-xl bg-primary px-2 py-1 text-white;
+  }
+}
+
+body {
+  font-family: 'Lexend', sans-serif;
+}
