@@ -8,8 +8,8 @@ module.exports = {
         secondary: '#91F460',
         accent: {
           1: '#FEE03D',
-          2: '#FCDB2A',
-        },
+          2: '#FCDB2A'
+        }
       }
     }
   },
